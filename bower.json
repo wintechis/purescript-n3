@@ -1,0 +1,26 @@
+{
+    "name": "purescript-n3",
+    "license": [
+        "MIT"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wintechis/purescript-n3"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "dependencies": {
+        "n3js": "https://github.com/rdfjs/N3.js.git#v1.16.3",
+        "purescript-aff": "^v7.1.0",
+        "purescript-aff-promise": "^v4.0.0",
+        "purescript-console": "^v6.0.0",
+        "purescript-effect": "^v4.0.0",
+        "purescript-either": "^v6.1.0",
+        "purescript-prelude": "^v6.0.1",
+        "purescript-rdf": "https://github.com/wintechis/purescript-rdf.git#v0.1.0"
+    }
+}
